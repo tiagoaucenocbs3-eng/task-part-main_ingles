@@ -285,12 +285,29 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
     </section>
 
     <!-- Container onde o upsell será exibido -->
-<div id="vendepay-upsell-container"></div>
-
-<!-- Script do widget Vendepay Upsell -->
-<script src="https://widget.vendepay.com/upsell-widget/v1/vendepay-upsell-widget-1.0.16.js?upsellId=760198bb-9c35-40e6-82b7-5a0d22979eaf"
-        onload="window.VendepayUpsellWidget && window.VendepayUpsellWidget.showIframe('vendepay-upsell-container')">
-</script>
+<div style="display:flex;flex-direction:column;gap:12px;width:fit-content;font-family:inherit;margin:20px auto;" data-cooud-flow-root>
+  <script type="application/json">{"steps":[{"title":"Mental Reset Guide","priceText":"$67.00","primary":{"id":"01M0G47BE4TYP9B4QDTF85A6WQ","redirect":"https://task-part-main-ingles.vercel.app/up1","label":"Enable the update","style":"display: flex; align-items: center; justify-content: center; text-decoration: none; font-family: inherit; font-weight: 600; padding: 16px 24px; font-size: 17px; border-radius: 8px; background-color: #059669; color: #ffffff; border: none; width: 100%; cursor: pointer;"},"fallback":null,"dismiss":{"primary":{"label":"n","style":"display: flex; align-items: center; justify-content: center; text-decoration: none; font-family: inherit; font-weight: 400; padding: 8px 16px; font-size: 14px; border-radius: 8px; background-color: transparent; color: #6b7280; border: none; width: 100%; cursor: pointer;"},"fallback":{"label":"n","style":"display: flex; align-items: center; justify-content: center; text-decoration: none; font-family: inherit; font-weight: 400; padding: 8px 16px; font-size: 14px; border-radius: 8px; background-color: transparent; color: #6b7280; border: none; width: 100%; cursor: pointer;"}}}],"initialStep":0,"startInFallback":false,"routingMode":"legacy","processingText":"Processando...","noMoreOffersText":"Obrigado! Sem mais ofertas.","connectScriptUrl":"https://orbit.cooud.com/scripts/connect"}</script>
+  <button
+    type="button"
+    data-cooud-flow-primary
+    data-connect-action="take"
+    data-connect-id="01M0G47BE4TYP9B4QDTF85A6WQ"
+    data-connect-redirect="https://task-part-main-ingles.vercel.app/up1"
+    style="display: flex; align-items: center; justify-content: center; text-decoration: none; font-family: inherit; font-weight: 600; padding: 16px 24px; font-size: 17px; border-radius: 8px; background-color: #059669; color: #ffffff; border: none; width: 100%; cursor: pointer;"
+  >
+    Enable the update
+  </button>
+  <button
+    type="button"
+    data-cooud-flow-dismiss
+    data-connect-action="dismiss"
+    style="display: none;"
+  >
+    n
+  </button>
+</div>
+<script src="https://js.stripe.com/v3/" async defer></script>
+<script src="https://orbit.cooud.com/scripts/flow" async defer></script>
     </section>
   </div>
 </main>
