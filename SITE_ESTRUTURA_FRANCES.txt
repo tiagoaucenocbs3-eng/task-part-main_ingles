@@ -1,0 +1,38 @@
+SITE EM FRANCÊS - SEM PIXELS/TRACKERS
+
+Pasta:
+C:\Users\tiago\Downloads\site\task-part-main_frances_sem_pixels
+
+Criado a partir da versão limpa sem pixels.
+
+Fluxo mantido:
+/ -> /inicio -> /resgatar -> /confirmar-saque -> /up1 -> /thanks -> https://task-part-main.vercel.app/tasks-app
+
+Páginas traduzidas/mantidas:
+- /inicio
+- /resgatar
+- /historico
+- /faq
+- /confirmar-saque
+- /back-redirect
+- /up1
+- /thanks
+- /landingpage
+- /lp
+- /privacy
+- /terms
+- /refund
+- /contact
+- /admin
+- /tasks-app
+
+Entregável traduzido:
+- src/routes/tasks-app.tsx
+- public/tasks-app/index.html
+
+Checkout mantido:
+https://checkout.cooud.com/01M0FQ2XTDSG8NM1CT0BY9BN71
+
+Widget upsell Vendepay mantido em public/up1/index.html.
+
+Pixels/tracking continuam removidos.

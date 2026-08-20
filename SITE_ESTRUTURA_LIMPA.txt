@@ -1,0 +1,41 @@
+SITE ORGANIZADO SEM PIXELS/TRACKERS
+
+Pasta limpa:
+C:\Users\tiago\Downloads\site\task-part-main_organizado_sem_pixels
+
+Fluxo principal:
+1. /                  entrada TikTok Rewards
+2. /inicio            início interno do funil
+3. /resgatar          resgate/recompensa
+4. /historico         histórico auxiliar
+5. /faq               perguntas frequentes
+6. /confirmar-saque   confirmação antes da compra
+7. /back-redirect     retenção/botão voltar
+8. /up1               upsell pós-compra com widget Vendepay
+9. /thanks            obrigado/confirmação
+10. Entrega externa: https://task-part-main.vercel.app/tasks-app
+
+Páginas extras mantidas:
+- /landingpage
+- /lp
+- /privacy
+- /terms
+- /refund
+- /contact
+- /admin
+
+Checkout mantido:
+https://checkout.cooud.com/01M0FQ2XTDSG8NM1CT0BY9BN71
+
+Widget upsell mantido em public/up1/index.html:
+<div id="vendepay-upsell-container"></div>
+<script src="https://widget.vendepay.com/upsell-widget/v1/vendepay-upsell-widget-1.0.16.js?upsellId=760198bb-9c35-40e6-82b7-5a0d22979eaf"
+        onload="window.VendepayUpsellWidget && window.VendepayUpsellWidget.showIframe('vendepay-upsell-container')">
+</script>
+
+Removido/desativado:
+- pixels e scripts externos de rastreamento removidos
+- arquivos técnicos analytics/trackevents/flock/rrweb/eventos removidos
+
+Observação:
+O arquivo public/param-forwarder.js foi mantido porque só repassa parâmetros para checkout Vendepay; não é pixel externo.
