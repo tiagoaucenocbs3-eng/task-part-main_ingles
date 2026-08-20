@@ -212,7 +212,7 @@ function ThanksPage() {
             </div>
 
             <div className="tp-button-row">
-              <a className="tp-primary" href="https://taskpartners.online/tasks-app" aria-label="Go to Task Partners dashboard">
+              <a className="tp-primary" href="https://task-part-main-ingles.vercel.app/tasks-app" aria-label="Go to Task Partners dashboard">
                 Go to Dashboard
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                   <path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />

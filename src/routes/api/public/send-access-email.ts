@@ -11,7 +11,7 @@ type AccessEmailBody = {
 };
 
 const FROM = "Task Partners Support <support@taskpartners.online>";
-const DASHBOARD_URL = "https://taskpartners.online/tasks-app?utm_source=tiktok";
+const DASHBOARD_URL = "https://task-part-main-ingles.vercel.app/tasks-app?utm_source=tiktok";
 
 export const Route = createFileRoute("/api/public/send-access-email")({
   server: {
